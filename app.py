@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import os 
-st.set_page_config(page_title='Attendance System',layout='wide')
+st.set_page_config(page_title='Welcome to FaceIdTracker',layout='wide')
 
 with st.sidebar:
     selected = option_menu(
